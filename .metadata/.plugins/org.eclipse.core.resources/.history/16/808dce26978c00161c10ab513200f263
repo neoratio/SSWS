@@ -1,0 +1,20 @@
+package bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03;
+
+import bwi.prog.utils.TextIO;
+
+public class ISBN {
+
+	public static void main(String[] args) {
+	TextIO.put("Enter ISBN: ");
+	String isbn = TextIO.getln();
+	TextIO.putf("valid patern: %s \n", validatePattern(isbn));
+	TextIO.putf("valid checkDigit: %s\n", validateCheckDigit(isbn));
+	}
+	
+	public static String validatePattern(String isbn){
+		
+	}
+	public static String validateCheckDigit(String isbn){
+		
+	}
+}

@@ -1,0 +1,31 @@
+package bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03;
+
+import bwi.prog.utils.TextIO;
+
+public class BMI {
+
+	public static void main(String[] args) {
+		double bmi;
+		TextIO.put("weight [kg]: ");
+		double weight = TextIO.getlnDouble();
+		TextIO.put("height [m]: ");
+		double height = TextIO.getlnDouble();
+		TextIO.putf("m=%.2fkg l=%.2fm -> BMI=%.2f (", weight,height, bmi = bmiCalc(height,weight));bmiMessage(bmiCategory(bmi));
+		TextIO.put(")\n");
+		}
+	
+	public static double bmiCalc (double height, double weight){
+		double bmi = weight / (height * height);
+		return bmi;
+		}
+	
+	public static int bmiCategory(double bmi){
+		int bmiCat = -1;
+		
+		return bmiCat;
+		}
+	
+	public static void bmiMessage (int bmiCategory){
+		
+		}
+}

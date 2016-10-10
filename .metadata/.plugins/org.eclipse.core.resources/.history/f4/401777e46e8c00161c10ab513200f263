@@ -1,0 +1,22 @@
+package bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03;
+
+public class BMI {
+
+	public static void main(String[] args) {
+	
+
+		}
+	public static double bmiCalc (double height, double weight){
+		double bmi = weight / (height * height);
+		return bmi;
+		}
+	
+	public static int bmiCategory(double bmi){
+		int bmiCategory = -1;
+		
+		return bmiCategory;
+		}
+	public static void bmMessage (int bmiCategory){
+		
+	}
+}

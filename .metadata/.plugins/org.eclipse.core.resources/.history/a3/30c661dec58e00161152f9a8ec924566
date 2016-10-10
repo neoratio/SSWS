@@ -1,0 +1,36 @@
+package bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import bwi.prog.utils.TextIO;
+
+public class ISBN {
+
+	public static void main(String[] args) {
+	TextIO.put("Enter ISBN: ");
+	String isbn = TextIO.getln();
+	TextIO.putf("valid patern: %s \n", validatePattern(isbn));
+	TextIO.putf("valid checkDigit: %s\n", validateCheckDigit(isbn));
+	}
+	
+	public static String validatePattern(String isbn){
+		Pattern p= Pattern.compile("[0-9]{13}+");
+		Matcher m= p.matcher(isbn);
+		if (m.matches()) return "true";
+		else return "false";	
+	}
+	
+	public static String validateCheckDigit(String isbn){
+	int stelle;
+	long sum=0;
+	for(int i=0;i>=12;i++){
+	stelle = Character.getNumericValue(isbn.charAt(i));
+	if(i==1 || i==11) sum= sum + 3* stelle;
+	else sum =+ stelle;
+	
+	}
+	if (Character.getNumericValue(isbn.charAt(12))== (10-(sum%10)%10)) return "true";
+	else return "false";
+	}
+}

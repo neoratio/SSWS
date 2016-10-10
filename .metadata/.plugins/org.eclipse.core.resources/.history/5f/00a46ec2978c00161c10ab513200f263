@@ -1,0 +1,28 @@
+package bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03;
+
+import java.util.regex.Pattern;
+
+import bwi.prog.utils.TextIO;
+
+public class ISBN {
+
+	public static void main(String[] args) {
+	TextIO.put("Enter ISBN: ");
+	String isbn = TextIO.getln();
+	TextIO.putf("valid patern: %s \n", validatePattern(isbn));
+	TextIO.putf("valid checkDigit: %s\n", validateCheckDigit(isbn));
+	}
+	
+	public static String validatePattern(String isbn){
+		if (isbn.length() == 13){
+			Pattern p= Pattern.compile("/d{13}+");
+			if()
+		}	
+		else return "false";	
+	}
+	
+	public static String validateCheckDigit(String isbn){
+	
+	return "false";
+	}
+}
