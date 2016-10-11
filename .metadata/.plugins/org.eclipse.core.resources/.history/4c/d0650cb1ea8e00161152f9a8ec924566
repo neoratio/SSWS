@@ -1,0 +1,30 @@
+package bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03;
+
+import bwi.prog.utils.TextIO;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class StudentID {
+
+	public static void main(String[] args) {
+	TextIO.put("enter studentID (wi**b***):");
+	String studID = TextIO.getln();
+	TextIO.putf("ID valid: %s \n", validate(studID));
+	TextIO.putf("graduation in: %d\n", graduation(studID));
+	}
+
+	public static Boolean validate(String studID){
+		Pattern p= Pattern.compile("[0-9]{13}+");
+		Matcher m= p.matcher(studID);
+		if (m.matches()) return "true";
+	return "valid";
+	}
+	
+	public static Integer graduation(String studID){
+	int year=0;
+	
+	return year;
+	}
+	
+}
+
