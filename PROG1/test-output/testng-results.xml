@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="23" passed="23">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49" started-at="2016-10-10T13:23:50Z" finished-at="2016-10-10T13:23:50Z">
+  <suite name="Default suite" duration-ms="110" started-at="2016-10-11T13:15:34Z" finished-at="2016-10-11T13:15:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="49" started-at="2016-10-10T13:23:50Z" finished-at="2016-10-10T13:23:50Z">
-      <class name="bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.StudentIDTest">
-        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.StudentIDTest@1e8b406]" name="testMain" duration-ms="14" started-at="2016-10-10T15:23:50Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-10T15:23:50Z">
+    <test name="Default test" duration-ms="110" started-at="2016-10-11T13:15:34Z" finished-at="2016-10-11T13:15:35Z">
+      <class name="bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest">
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="10" started-at="2016-10-11T15:15:34Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[wi15b666
-]]>
+                <![CDATA[20001301]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[enter studentID (wi**b***): ID valid: true
-graduation in: 2018
+                <![CDATA[enter date (yyyymmdd)
+invalid date (20001301)
 ]]>
               </value>
             </param>
@@ -26,18 +25,17 @@ graduation in: 2018
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMain -->
-        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.StudentIDTest@1e8b406]" name="testMain" duration-ms="1" started-at="2016-10-10T15:23:50Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-10T15:23:50Z">
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:34Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[wi15B666
-]]>
+                <![CDATA[19991232]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[enter studentID (wi**b***): ID valid: false
-graduation in: -1
+                <![CDATA[enter date (yyyymmdd)
+invalid date (19991232)
 ]]>
               </value>
             </param>
@@ -45,18 +43,17 @@ graduation in: -1
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMain -->
-        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.StudentIDTest@1e8b406]" name="testMain" duration-ms="1" started-at="2016-10-10T15:23:50Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-10T15:23:50Z">
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="10" started-at="2016-10-11T15:15:34Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[wi00b001
-]]>
+                <![CDATA[20041131]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[enter studentID (wi**b***): ID valid: true
-graduation in: 2003
+                <![CDATA[enter date (yyyymmdd)
+invalid date (20041131)
 ]]>
               </value>
             </param>
@@ -64,18 +61,17 @@ graduation in: 2003
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMain -->
-        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.StudentIDTest@1e8b406]" name="testMain" duration-ms="1" started-at="2016-10-10T15:23:50Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-10T15:23:50Z">
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:34Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[wiIIb001
-]]>
+                <![CDATA[20000001]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[enter studentID (wi**b***): ID valid: false
-graduation in: -1
+                <![CDATA[enter date (yyyymmdd)
+invalid date (20000001)
 ]]>
               </value>
             </param>
@@ -83,7 +79,336 @@ graduation in: -1
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMain -->
-      </class> <!-- bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.StudentIDTest -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:34Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20000431]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+invalid date (20000431)
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:34Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20030230]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+invalid date (20030230)
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:34Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19000229]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+invalid date (19000229)
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="10" started-at="2016-10-11T15:15:34Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15811231]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+invalid date (15811231)
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:34Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20030229]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+invalid date (20030229)
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:35Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15821016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+16.10.1582 was/is or will be a Saturday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="10" started-at="2016-10-11T15:15:35Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21010101]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+01.01.2101 was/is or will be a Saturday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:35Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21001231]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+31.12.2100 was/is or will be a Friday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:35Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15821015]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+invalid date (15821015)
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:35Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20000229]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+29.02.2000 was/is or will be a Tuesday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:35Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20041115]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+15.11.2004 was/is or will be a Monday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:35Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20960216]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+16.02.2096 was/is or will be a Thursday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="10" started-at="2016-10-11T15:15:35Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19800201]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+01.02.1980 was/is or will be a Friday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:35Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19720130]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+30.01.1972 was/is or will be a Sunday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:35Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19291025]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+25.10.1929 was/is or will be a Friday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:35Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19880308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+08.03.1988 was/is or will be a Tuesday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:35Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20030228]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+28.02.2003 was/is or will be a Friday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="0" started-at="2016-10-11T15:15:35Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20040229]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+29.02.2004 was/is or will be a Sunday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testMain(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest@1e8b406]" name="testMain" duration-ms="10" started-at="2016-10-11T15:15:35Z" description="tests the output of main compared with the awaited output" data-provider="inout" finished-at="2016-10-11T15:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19190303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enter date (yyyymmdd)
+03.03.1919 was/is or will be a Monday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+      </class> <!-- bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03.tests.WeekdaysTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

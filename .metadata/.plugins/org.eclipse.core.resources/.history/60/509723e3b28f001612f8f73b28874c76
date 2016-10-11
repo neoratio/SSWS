@@ -1,0 +1,86 @@
+package bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03;
+
+import bwi.prog.utils.TextIO;
+
+public class Weekdays {
+
+	public static void main(String[] args) {
+	TextIO.putln("enter date (yyyymmdd)");
+	int date = TextIO.getInt();
+	int inDay = date % 100, inMonth = date %10000/100, inYear = date/10000;
+	
+	if (validate(inYear,inMonth,inDay)){
+		int W = weekday (inDay, inMonth, inYear);
+		String weekday = dayName(W);
+		
+		TextIO.putf("%02d.%02d.%04d was/is or will be a %s", inDay,inMonth,inYear,weekday);
+		}
+	else TextIO.putf("invalid date (%d)\n", date);
+	}
+
+	public static boolean validate(int year){
+	if (year > 1582 && year < 2200) return true;
+	else return false;
+	}
+	
+	public static boolean validate(int year,int month){
+		if(validate(year) && month > 0 && month < 13) return true;
+		else if (year == 1582 && month >= 10 && month < 13) return true; 
+			else return false;
+	}
+	
+	public static boolean isLeap(int inYear){
+		if (inYear %4 == 0 && inYear %100 > 0) return true;
+		else if (inYear %400 == 0) return true;
+			else return false;
+	}
+	
+	public static int nDays(int month, int year){
+	switch (month){
+		case 1: return 31;
+		case 2: if(isLeap(year)) return 29;
+				else return 28; 
+		case 3: return 31;
+		case 4: return 30;
+		case 5: return 31;
+		case 6: return 30;
+		case 7: return 31;
+		case 8: return 31;
+		case 9: return 30;
+		case 10: return 31;
+		case 11: return 30;
+		case 12: return 31;
+		default: return 0;
+		}
+	}
+	
+	public static boolean validate (int year, int month, int day){
+	if (year == 1582 && validate(year,month) && day <= 17 && day > 0) return true;
+		else if(validate(year,month) && day <= nDays(month,year) && day > 0) return true;
+			else return false;
+	}
+	
+	public static int weekday (int inDay, int inMonth, int inYear){
+	int w=0,a;
+	if (inMonth == 1 || inMonth ==2){ inMonth += 10; --inYear;}
+	else inMonth -=2;
+	a = inDay + (int) (2.6 * inMonth - 0.2) + (int)(inYear%100) + (int)(inYear%100/4) + (int)(inYear/100/4) - 2 *(int)(inYear/100);
+	if(a<0) w=(a%7) + 7;
+	else w= a%7 ;	
+	TextIO.putf("d = %d,m = %d, y = %d, c = %d, a = %d, w = %d ",inDay, inMonth,inYear%100,inYear/100,a,w);
+	return w;
+	}
+	
+	public static String dayName(int W){
+	switch(W){
+		case 0: return "Sunday";
+		case 1: return "Monday";
+		case 2: return "Tuesday";
+		case 3: return "Wednesday";
+		case 4: return "Thursday";
+		case 5: return "Friday";
+		case 6: return "Saturday";
+		default: return "invalid";
+		}
+	}
+}

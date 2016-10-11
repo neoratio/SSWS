@@ -1,0 +1,23 @@
+package bwi.prog1B.WS1617.w16b052_Seyer.ExerciseSheet03;
+
+public class Weekdays {
+
+	public static void main(String[] args) {
+	
+
+	}
+	public static boolean validate(int year){
+	return true;
+	}
+	public static boolean validate(int year,int month){
+	return true;
+	}
+	public static boolean isLeap(int inYear){
+	return true;
+	}
+	public static int nDays(int month, int year){
+	int days = 0;
+	return days;
+	}
+	
+}
